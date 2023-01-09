@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express-validator": "^6.14.2",
+    "js-cookie": "^3.0.1",
+    "pg": "^8.8.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^5.3.4",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.2"
+  },
+  "name": "authenticate-me",
+  "description": "## Database Schema Design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "npm run build --prefix frontend",
+    "install": "npm --prefix backend install backend && npm --prefix frontend install frontend",
+    "dev:backend": "npm install --prefix backend start",
+    "dev:frontend": "npm install --prefix frontend start",
+    "sequelize": "npm run --prefix backend sequelize",
+    "sequelize-cli": "npm run --prefix backend sequelize-cli",
+    "start": "npm start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zswanson92/API-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zswanson92/API-project/issues"
+  },
+  "homepage": "https://github.com/zswanson92/API-project#readme",
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
+  }
+
+}
